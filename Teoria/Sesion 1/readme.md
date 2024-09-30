@@ -4,7 +4,10 @@
 - [x] h1 - h6
 - [x] p
 - [x] nav
-- [x]
+- [x] header, main, footer
+- [x] Imagenes con <img>
+- [x] 
+- [x] 
 
 ## Herramientas
-- COnfiguración: Word WRap
+- Configuración: Word WRap
