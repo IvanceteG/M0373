@@ -16,48 +16,62 @@
                     <li><a href="paginas/reparacion.html">Reparaciones</a></li>
                 </ul>
             <li><a href="paginas/contacto.html">Contacto</a></li>
+            <li><a href="#listas">Enlace a sección listas</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/HTML#Elementos" target="_blank">Enlace externo wikipedia HTML-Elementos</a></li>
         </ul>
     </nav>
-    <h1>Título nivel 1</h1>
         <nav>
             <a href="http://www.fpllefia.com"
             title="Página web de fpllefia"> FP Llefia
         </a>
         </nav>
     </header>
-    <main>    
-    <h4>Título nivel 4</h4>
+    <main>
+        
+        <h1>Título nivel 1</h1>
+
+        <section id="seccionPrincipal">
+        <h4>Título nivel 4</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
         Sed quia molestias animi, magni et beatae. Explicabo quibusdam praesentium, 
         porro autem aspernatur mollitia fugiat sunt deserunt asperiores, impedit iste quas voluptatum.</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat dolor ipsam sit atque dolorum. Voluptatibus expedita explicabo animi tempore porro, nostrum nobis, unde velit laborum ab accusantium, similique pariatur quidem?</p>
-        <img src="imagenes/fpllefia.png" alt="Logo de FPLefia">
-        <img src="imagenes/logohtml.png" alt="Logo de html">
+        </section>
+        <section id="logos">
+            <div>
+                <p>Logo de FPLlefia</p>
+                <img src="imagenes/fpllefia.png" alt="Logo de FPLefia">
+            </div>
+            <div>
+                <p>Logo de HTML</p>
+                <img src="imagenes/logohtml.png" alt="Logo de html">
+            </div>
+        </section>
+        <section id="listas">
+            <h3>Lista ordenada</h3>
+                <ol>
+                    <li>Primer elemento</li>
+                    <li>Segundo elemento</li>
+                    <li>Tercer elemento</li>
+                </ol>
 
-        <h3>Lista ordenada</h3>
-        <ol>
-            <li>Primer elemento</li>
-            <li>Segundo elemento</li>
-            <li>Tercer elemento</li>
-        </ol>
-
-        <h3>Lista desordenada</h3>
-        <ul>
-            <li>Primer item</li>
-            <li>Segundo item</li>
-        </ul>
-
-        <h3>Lista anidada</h3>
-        <ol>
-            <li>Item 1</li>
-            <li>Item 2</li>
+            <h3>Lista desordenada</h3>
                 <ul>
-                    <li>Subitem 1</li>
-                    <li>Subitem 2</li>
-                    <li>Subitem 3</li>
+                    <li>Primer item</li>
+                    <li>Segundo item</li>
                 </ul>
-            <li>Item 3</li>
-        </ol>
+
+            <h3>Lista anidada</h3>
+                <ol>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                        <ul>
+                            <li>Subitem 1</li>
+                            <li>Subitem 2</li>
+                            <li>Subitem 3</li>
+                        </ul>
+                    <li>Item 3</li>
+                </ol>
 
         <h3>Main con listas</h3>
 
@@ -72,6 +86,7 @@
                 <li>Contacto</li>
             </ul>
         </nav>
+        </section>
     </main>
     <footer>Página diseñada por Iván García</footer>
 </body>

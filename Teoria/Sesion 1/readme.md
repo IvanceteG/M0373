@@ -8,6 +8,9 @@
 - [x] Imagenes con <img>
 - [x] Enlaces [a]
 - [x] Listas ordenadas <ol> y desordenadas <ul>
+- [x] 
+
+
 
 ## Herramientas
 - Configuración: Word WRap
