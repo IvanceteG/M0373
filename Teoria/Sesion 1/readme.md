@@ -6,8 +6,8 @@
 - [x] nav
 - [x] header, main, footer
 - [x] Imagenes con <img>
-- [x] 
-- [x] 
+- [x] Enlaces [a]
+- [x] Listas ordenadas <ol> y desordenadas <ul>
 
 ## Herramientas
 - Configuración: Word WRap
